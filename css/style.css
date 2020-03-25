@@ -55,6 +55,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 .container p:first-of-type {
   font-size: 20px;
@@ -69,6 +70,26 @@ p:last-of-type {
   color: grey;
   line-height: 30px;
   margin-bottom: 30px;
+}
+h5 {
+  margin-top: 50px;
+}
+i {
+  font-size: 25px;
+  color: green;
+  position: absolute;
+  top: 370px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollDown 1s infinite alternate;
+}
+@keyframes scrollDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(30px);
+  }
 }
 
 footer h3 {
