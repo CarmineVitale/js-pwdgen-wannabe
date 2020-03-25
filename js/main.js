@@ -27,3 +27,7 @@ console.log(colore);
 var password = nome + cognome + colore + '20';
 console.log(password);
 document.getElementById('password').innerHTML = password;
+
+
+
+document.getElementById('thanks').innerHTML = 'Grazie per aver utilizzato il nostro sistema, ' + nome + ' ' + cognome + '.'
