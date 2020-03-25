@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  color: white;
+}
+h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.container {
+  padding-top: 60px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container p:first-of-type {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+p:last-of-type {
+  border: 3px solid lightgreen;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  color: grey;
+  line-height: 24px;
+}
